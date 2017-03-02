@@ -22,8 +22,16 @@
 
 
 
+
         <!-- Mantra or tag-line... -->
         <h2>Find the best parking spot nearest your destination</h2>
+        <!-- Progress indicator indicates app is fetching data -->
+        <div class="progress">
+            <div class="indeterminate"></div>
+        </div>
+
+
+
         <!-- label that lets user know there is an input field for their destination -->
         <label for="climaPARK">Enter in destination</label>
 
@@ -42,15 +50,12 @@
         <label id="parkDuration" for="parkingDuration">How long do you plan to park?</label>
 
         <input id="parkingDuration" type="text" name="duration" value="">
+        
         <div class="card-panel center-align">
             <!-- Button that triggers geocoding and other chained- API calls -->
             <a id="search" class="waves-effect black-text text-darken-2 cyan accent-2 btn">Search</a>
         </div>
 
-        <!-- Progress indicator indicates app is fetching data -->
-        <div class="progress">
-            <div class="indeterminate"></div>
-        </div>
 
         <div class="divider"></div>
 

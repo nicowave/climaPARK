@@ -38,7 +38,7 @@ function initMap() {
        searchBtn.addEventListener('click', function() {
            // call the codeAddress() function and pass it the geocoder object
            //  along with the new 'map' object
-           $('.progress').show()
+           $('.progress').show().delay()
            codeAddress(geocoder, map)
        })
 }
